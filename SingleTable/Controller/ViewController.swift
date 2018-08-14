@@ -29,7 +29,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         
         tableView.backgroundView = UIImageView(image: UIImage(named: "cityBackground"))
-        //tableView.backgroundView = UIImageView(image: UIImage(named: "background"))
+        
         tableView.backgroundView?.alpha = 1
         tableView.contentMode = .scaleAspectFill
     }
